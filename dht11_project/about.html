@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SICHAI</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
+                <a class="navbar-brand" href="index.html">
+                    <img src="http://localhost/dht11_project/logo1.png" width="200" height="90"
+                        class="d-inline-block align-text-top" alt="Sichai Logo">
+                    <!-- <span class="logo-text">Sichai</span> -->
+                </a>
+            </div>
+            <!-- <div class="nav__logo">
+                <a href="index.html" class="logo">SICHAI</a>
+            </div> -->
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="http://localhost/dht11_project/login/login.php">Signin</a></li>
+        </ul>
+        <div class="nav__search" id="nav-search">
+            <input type="text" placeholder="Search" />
+            <span><i class="ri-search-2-line"></i></span>
+        </div>
+    </nav>
+
+    <section class="section__container about__container" id="about">
+        <div class="about__header">
+            <div>
+                <h2 class="section__header">About us</h2>
+                <p class="section__description">
+                    We empower farmers with IoT agriculture by providing real-time
+                    data from connected sensors that monitor soil moisture, weather,
+                    and crop health. This data allows farmers to make informed decisions
+                    about irrigation, fertilization, and pest control. By optimizing
+                    resource use and improving crop yields, our solutions enhance
+                    productivity and sustainability. Ultimately, our IoT technology
+                    helps farmers achieve better results and increased profitability
+                    while reducing their environmental footprint.
+                </p>
+            </div>
+            <a href="about.html" class="about__btn">Learn More</a>
+
+        </div>
+        <div class="about__content">
+            <div class="about__image">
+                <img src="assets/about.png" alt="about" />
+            </div>
+            <div class="about__grid">
+                <div class="about__card">
+                    <h3>1.</h3>
+                    <h4>Who we are</h4>
+                    <p>
+                        IoT irrigation system.
+                    </p>
+                </div>
+                <div class="about__card">
+                    <h3>2.</h3>
+                    <h4>What do we do</h4>
+                    <p>
+                        Automation in irrigation.
+                    </p>
+                </div>
+                <div class="about__card">
+                    <h3>3.</h3>
+                    <h4>How do we help</h4>
+                    <p>One stop IoT solution.</p>
+                </div>
+                <div class="about__card">
+                    <h3>4.</h3>
+                    <h4>Create success story</h4>
+                    <p>
+                        Sichai transforms traditional farming by reducing water usage by 40% increasing crop yeild by
+                        30%, and saving farmers hours of manual labor each week.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container product__container" id="product">
+        <h2 class="section__header">Feedbacks</h2>
+
+        <!-- </section> -->
+
+        <section class="section__container client__container">
+            <div class="client__content">
+                <h2 class="section__header">What our happy client say</h2>
+                <p class="section__description">
+                    Testimonials Highlighting Our Commitment to Quality, Exceptional
+                    Service, and Customer Satisfaction
+                </p>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="client__card">
+                                <img src="assets/user-1.jpg" alt="user" />
+                                <div>
+                                    <p>
+                                        Sichai transformed my living space.
+                                    </p>
+                                    <h4>David Miller</h4>
+                                    <h5>Real Estate Agent</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client__card">
+                                <img src="assets/user-2.jpg" alt="user" />
+                                <div>
+                                    <p>
+                                        Exceptional quality and service! The furniture is stunning,
+                                        and the 30-day payment terms made it incredibly convenient.
+                                    </p>
+                                    <h4>Sarah Thompson</h4>
+                                    <h5>Farmer</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client__card">
+                                <img src="assets/user-3.jpg" alt="user" />
+                                <div>
+                                    <p>
+                                        The 30-day terms made easy. Highly recommended!
+                                    </p>
+                                    <h4>Michael Lee</h4>
+                                    <h5>Farmer</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="contact">
+            <div class="section__container footer__container">
+                <div class="footer__col">
+                    <div class="footer__logo">
+                        <a href="#" class="logo">Sichai</a>
+                    </div>
+                    <p>
+                        Innovating your fields with smart irrigation solutions.
+                        Explore how our technology enhances crop growth and conserves water effectively.
+                    </p>
+                    <ul class="footer__socials">
+                        <li>
+                            <a href="#"><i class="ri-facebook-fill"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Payrol</a></li>
+                        <li><a href="feedback">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Resources</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Support</h4>
+                    <ul class="footer__links">
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
